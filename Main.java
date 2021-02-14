@@ -56,11 +56,11 @@ class Cleaner
 			{	
 				//getName() gives name of file
 				System.out.println("Empty file name : "+file.getName());			
-				if(!file.delete())											//if file does not get deleted then if block will execute.
+				if(!file.delete())										//if file does not get deleted then if block will execute.
 				{
 					System.out.println("Unable to delete");							
 				}
-				else														//when file will get delete else block will get execute.
+				else												//when file will get delete else block will get execute.
 				{
 					//Counter used for counting deleted file.
 					EmptyFile++;													
